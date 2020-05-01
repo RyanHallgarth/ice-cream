@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ce9c5c380f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Contact Us!</title>
+</head>
+
+<body>
+<header>
+    <div class="logo">
+        <img class="center" src="ice-cream.png" alt="logo">
+    </div>
+
+    <div class="post-thumbnail">
+        <img  width="1200" height="800" src="homeImage2.jpg" alt="Ice Cream Scoops">
+    </div>
+</header>
+
+    <div class="topnav" id="myTopnav">
+        <a href="contact.html" class="active">Contact</a>
+        <a href="about.html">About</a>
+        <a href="flavors.html">Flavors</a>
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+
+            <div class="dropdown-content">
+
+            </div>
+        </div>
+
+        <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</header>
+<div class="Content">
+        <header>
+
+            <h1>The best way to contact<span style="color: #55c3ff"> Super Duper</span> <span style="color: #f7649b">Ice Cream Shop</span>!</h1>
+            <img src="homeImage1.png">
+
+        </header>
+
+    <div class="contact">
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label type="text">E-mail</label>
+                </div>
+                <div class="col-75">
+                    <input type="Text" id="lname" name="lastname" placeholder="Your E-mail..">
+
+                    </input>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="footer">
+    <div class="footerDiv"></div>
+    <a href="http://www.facebook.com"><button class="btn"><i class="fab fa-facebook"></i></button></a>
+    <a href="http://www.twitter.com"><button class="btn"><i class="fab fa-twitter"></i></button></a>
+    <a href="http://www.instagram.com"><button class="btn"><i class="fab fa-instagram"></i></button></a>
+
+</div>
+
+
+
+</body>
+</html>
